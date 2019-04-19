@@ -8,7 +8,7 @@ public class Demo {
 		// TODO Auto-generated method stub
 		int ar[] = {10,15,20,180,11,0};
 		System.out.println(Arrays.toString(ar));
-		Arrays.sort(ar);
+		//Arrays.sort(ar);
 		System.out.println(Arrays.toString(ar));
 		System.out.println(Arrays.binarySearch(ar, 180));
 		int b[]=Arrays.copyOf(ar, ar.length +2);
